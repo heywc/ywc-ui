@@ -1,0 +1,12 @@
+# 忽略目录
+examples/
+packages/
+public/
+dist/
+common/
+build/
+config/
+
+# 忽略指定文件
+vue.config.js
+jsconfig.json

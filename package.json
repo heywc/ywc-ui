@@ -1,11 +1,19 @@
 {
-  "name": "yui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ywc-ui",
+  "version": "0.2.0",
+  "private": false,
+  "main": "lib/index/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "author": "heywc",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:1842347744/ywc-ui.git"
+  },
+  "keywords": [],
+  "license": "ISC",
   "dependencies": {
     "vue": "^2.6.14"
   },
@@ -14,5 +22,10 @@
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
